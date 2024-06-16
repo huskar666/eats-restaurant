@@ -42,7 +42,8 @@ main{
     & .banner{
         background-image: url('../img/banner.png') ;
         width: 100%;
-        
+        position: relative;
+        background-size: cover;
         & .banner__container{
             margin: 0 auto;
             width: 100%;
@@ -183,9 +184,12 @@ main{
     }
 }
 & .banner2{
-    background-image: url('../img/banner2.png') ;
+    background: url('../img/banner2.png');
     width: 100%;
     margin-top: 185px;
+    position: relative;
+    background-size: cover;
+
     
     & .banner2__container{
         margin: 0 auto;
@@ -260,6 +264,9 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 133px;
+        padding-top: 78px;
+        padding-bottom: 27px;
         & .footer__text{
             font-family: Roboto;
             font-size: 12px;
@@ -267,10 +274,6 @@ footer{
             line-height: 18px;
             letter-spacing: 0.10000000149011612px;
             text-align: right;
-        }
-        & .footer__logo{
-            padding-top: 115px;
-            padding-bottom: 59px;
         }
     }
 }

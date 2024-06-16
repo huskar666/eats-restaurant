@@ -39,6 +39,8 @@ header .header .header__container--link:hover {
 main .banner {
   background-image: url("../img/banner.png");
   width: 100%;
+  position: relative;
+  background-size: cover;
 }
 main .banner .banner__container {
   margin: 0 auto;
@@ -171,9 +173,11 @@ main .works .works__container .works__container--text .works__container--text--p
   color: #737373;
 }
 main .banner2 {
-  background-image: url("../img/banner2.png");
+  background: url("../img/banner2.png");
   width: 100%;
   margin-top: 185px;
+  position: relative;
+  background-size: cover;
 }
 main .banner2 .banner2__container {
   margin: 0 auto;
@@ -244,6 +248,9 @@ footer .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 133px;
+  padding-top: 78px;
+  padding-bottom: 27px;
 }
 footer .footer .footer__text {
   font-family: Roboto;
@@ -252,8 +259,4 @@ footer .footer .footer__text {
   line-height: 18px;
   letter-spacing: 0.1000000015px;
   text-align: right;
-}
-footer .footer .footer__logo {
-  padding-top: 115px;
-  padding-bottom: 59px;
 }
